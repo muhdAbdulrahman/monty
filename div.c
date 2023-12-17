@@ -1,11 +1,11 @@
 #include "monty.h"
 /**
- * div - divides top two element
+ * d_div - divides top two element
  * @head: head
  * @number: number
  * Return: no return
 */
-void div(stack_t **head, unsigned int number)
+void d_div(stack_t **head, unsigned int number)
 {
 	stack_t *h;
 	int len = 0, aux;
